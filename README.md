@@ -9,6 +9,7 @@ Create local `.env`:
 ```
 DEBUG=yes
 CLIENT_KEY=testkey
+WEB_CONCURRENCY=2
 ```
 
 ```
