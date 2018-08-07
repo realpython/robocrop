@@ -10,6 +10,5 @@ mode = 'clip'
 
 # Quality
 filter = 'antialias'
-optimize = True
 progressive = True
-quality = '90'
+quality = 'keep'
