@@ -3,6 +3,8 @@ import envconfig
 # Deployment specific settings
 port = envconfig.int('PORT')
 debug = envconfig.bool('DEBUG')
+client_name = envconfig.str('CLIENT_NAME')
+client_key = envconfig.str('CLIENT_KEY')
 
 # Resizer behavior
 mode = 'clip'
