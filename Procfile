@@ -1,1 +1,1 @@
-web: python -m pilbox.app --port=$PORT
+web: python -m pilbox.app --config=config.py
