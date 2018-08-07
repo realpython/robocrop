@@ -1,1 +1,1 @@
-web: python -m pilbox.app --config=config.py
+web: python app.py --config=config.py
