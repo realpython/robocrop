@@ -1,6 +1,6 @@
 envconfig==0.1.0
 pilbox==1.3.4
-Pillow==7.1.2
+Pillow==7.2.0
 sphinx-me==0.3
 tornado==6.0.4
 pycurl==7.43.0.5
