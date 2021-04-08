@@ -5,7 +5,7 @@ port = envconfig.int('PORT')
 debug = envconfig.bool('DEBUG')
 client_key = envconfig.str('CLIENT_KEY')
 workers = envconfig.int('WEB_CONCURRENCY')
-timeout = envconfig.int('TIMEOUT')
+timeout = float(envconfig.int('TIMEOUT'))
 
 # Resizer behavior
 mode = 'clip'
